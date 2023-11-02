@@ -1,0 +1,574 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 166px
+}
+
+.header {
+    background: url(bg.png), no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-right: 25px;
+
+    transition-duration: .2s;
+}
+
+.nav-item:hover {
+    color:#FF7400;
+    
+}
+
+.cart {
+    position: relative;
+
+    border-right: #fff solid 2px;
+    padding-right: 25px;
+    height: 50px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 18px;
+    
+}
+
+.phone {
+    margin: 25px;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.num:hover {
+    color: #FF7400;
+    transition-duration: .2s;
+}
+
+.phone-text {
+    color:#fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.button {
+    display: block;
+
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+
+    padding: 25px;
+    border-radius: 1px;
+
+    background-color: #FF7400;
+}
+
+.header-down {
+    position: absolute;
+    left: 200px;
+    top: 320px;
+
+    text-align: center;
+}
+
+.header-suptitle {
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.header-title {
+    font-size: 80px;
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+}
+
+.header-subtitle {
+    color:#fff;
+    font-family: 'Open Sans';
+    font-size: 18px;
+
+    margin: 10px 0;
+    padding: 0;
+    
+
+    position: relative;
+}
+
+.header-subtitle:before {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 86px;
+    top: 12px;
+}
+
+.header-subtitle:after {
+    content: "";
+    width: 60px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    right: 86px;
+    top: 12px;
+}
+
+.menu-button {
+    max-width:fit-content;
+    padding: 14px 27px;
+    position: absolute;
+    left:140px;
+    margin: 15px 0px;
+}
+
+.card-holder {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -100px
+}
+
+.card {
+    background: #FFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+    max-width: 30%;
+    font-family: Tinos;
+    font-weight: 400;
+    font-size: 26px;
+
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-description-title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cdt-last {
+    color: #BC9060;
+}
+
+.card-description-text {
+    display: flex;
+    text-align: center;
+
+    margin: 10px 0;
+
+    color: #656363;
+}
+
+
+.history-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    margin: 50px;
+    height: 640px;
+}
+
+.history-block {
+    flex: 1 1 500px;
+    
+    margin-left: 0;
+}
+
+.title {
+    font-size: 54px;
+    font-weight: 400;
+    font-family: Tinos;
+    text-align: center;
+
+    
+}
+
+.history-text {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color:#656363;
+    text-align: center;
+
+    margin-top: 15px;
+}
+
+.ht-last {
+    color: #D67E35;
+}
+
+.stat-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.stat-block {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.stat-block > span {
+    font-size: 40px;
+    color:#BC9060;
+}
+
+
+.photos-block {
+    flex: 1 1 500px
+}
+
+.first-photo {
+    width: 233px;
+    height: 300px;
+    z-index: 1;
+    position: relative;
+    top: -135px;
+    left: 20px
+}
+
+.second-photo {
+    width: 255px;
+    height: 430px;
+    z-index: 0;
+    position: relative;
+    right: 65px
+}
+
+.third-photo {
+    width: 255px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    right: -380px;
+    top: -300px
+}
+
+.booking {
+    background-image: url(booking.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 357px;
+    width:  100%;
+    position: relative;
+}
+
+.booking-wrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 357px;
+    text-align: left;
+}
+
+.booking-text {
+    
+    flex: 1 1 65%;
+
+    position: relative;
+}
+
+.booking-title {
+    color:#D67E35;
+    font-family: Tinos;
+    font-size: 52px;
+    font-weight: 400;
+    
+    position: absolute;
+    top: 80px
+}
+
+.booking-title > span {
+    color:#FFF;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Open sans';
+    font-weight: 400;
+
+}
+
+.button-wrapper {
+    flex: 1 1 30%;
+    position: relative;
+}
+
+.booking-button {
+    background-color: #FF7400;
+    max-width:fit-content;
+    padding: 14px 27px;
+    margin: 15px 0px;
+    max-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 33%;
+    left: 33%
+    
+}
+
+.dishes {
+    height: 100vh;
+}
+
+.dishes > .container {
+    height: 100vh;
+}
+
+.dishes-title {
+    margin: 100px;
+}
+
+.dishes-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pizza-img {
+    flex: 1 1 30%;
+    margin: 10px;
+}
+
+.dishes-list {
+    flex: 1 1 60%;
+    position: relative;
+}
+
+.dishes-item {
+    margin: 10px;
+    margin-bottom: 27px;
+    display: flex;
+    align-items: center;   
+}
+
+.dishes-item-title {
+
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+
+.menu {
+    background-image: url(bar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.menu > .container {
+    height: 100vh;
+}
+
+.menu-title {
+    
+    padding: auto;
+    position: relative;
+    top: 70px;
+    background-color: #000;
+    border-radius: 2px;
+
+    color:#FFF;
+}
+
+.menu-cards {
+    display:flex;
+    justify-content: space-around;
+
+    position: relative;
+    top: 25%
+}
+
+.menu-card {
+    background-color: #FFF;
+    text-align: center; 
+    padding: 30px;
+}
+
+.menu-img {
+    position:relative;
+}
+
+.menu-img > img{
+    border-radius: 50%;
+}
+
+.price {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+
+    background-color: #D67E35;
+    border: 6px solid #FFF;
+    border-radius: 50%;
+    padding: auto;
+
+    color:#FFF;
+    font-family:cursive;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 70px;
+    height: 70px;
+
+}
+
+.menu-text {
+    font-family: Tinos;
+    font-size: 26px;
+    margin: 17px;
+}
+
+.menu-subtext {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.review {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 20px;
+
+    background: #E5E5E5;
+    padding: 117px;
+}
+
+.review-text {
+    font-style: italic;
+}
+
+.reviewer-photo > img {
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.reviewer-role {
+    font-weight: 600;
+    margin: 10px;
+}
+
+.dishes-gallery .title {
+    margin: 100px;
+}
+
+.photos-wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 20px;
+}
+
+
+.table-img {
+    width: 40%
+}
+
+.cooks {
+    height: 100vh;
+}
+
+.cooks .title {
+    margin: 100px;
+}
+
+.last-page {
+    background-image: url(last_page.png);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+@media (min-width: 1700px) {
+    .third-photo {
+        left: -130px;
+        top: 36px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .header {
+        display: block;
+    }
+    
+    .photos-block {
+        display: none;
+    }
+
+    .pizza-img {
+        display: none;
+    }
+
+    .dishes {
+        height: auto;
+    }
+
+    .dishes-wrapper {
+        flex-direction: column;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    .table-img {
+        display: none;
+    }
+
+    .photos-wrapper {
+        display: block;
+        
+    }
+
+    .photos-wrapper img {
+        margin: 15px auto;
+    }
+
+    .last-page {
+        display: none;
+    }
+
+}
+
+
